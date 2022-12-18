@@ -1,0 +1,73 @@
+@font-face{
+    font-family: "OpenSans-Regular";
+     src: url("assets/fonts/OpenSans-Regular.ttf");
+  }
+
+* {
+    box-sizing: border-box;
+    padding: 5pt;
+    margin: 2pt;
+}
+
+.headerTitle{
+    font-size: 25px;
+}
+
+.mainImage{
+    border-radius: 100%;
+}
+
+.brd{
+    border: 1px;
+    border-color: #000000;
+    border-style:double;
+    
+}
+
+body {
+    font-family: "OpenSans-Regular";
+    background-color: #556B2F;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.header {
+    background: #37461d; 
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.navElement{
+    float: left;
+    background: #37461d;
+    color: #000000;
+}
+
+.headerTitle_two{
+    float: left;
+    display: block;
+    font-size: 20px;
+    padding: 10px;
+    color: #000000;
+}
+
+.link{
+    color: #000000;
+}
+
+.main{
+    position: relative;
+    padding-left: 100px;
+    padding-right: 100p;
+}
+
+.footer{
+    border: 1px;
+    border-color: #000000;
+    background-color: #37461d;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}

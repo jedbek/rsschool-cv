@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>cv</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <nav class="navElement">
+            <h2 class="headerTitle_two"><a href="#Contacts" class="link">Contacts</a></h2>
+            <h2 class="headerTitle_two"><a href="#Summary" class="link">Summary</a></h2>
+            <h2 class="headerTitle_two"><a href="#Skills" class="link">Skills</a></h2>
+            <h2 class="headerTitle_two"><a href="#Code" class="link">Code</a></h2>
+            <h2 class="headerTitle_two"><a href="#Education" class="link">Education</a></h2>
+            <h2 class="headerTitle_two"><a href="#Languages" class="link">Languages</a></h2>
+        </nav>
+    </header>
+    <main class="main">
+        <h1 class="headerTitle">Jedidiah Gatov</h1>
+        <img src="assets/img/img0.jpg" alt="cv_photo" width="20%" class="mainImage">
+        <ul> <h3 id="Contacts">Contacts:</h3>
+            <li>E-mail: jedidiah.are.here@gmail.com</li>
+            <li>Discord: Jed Gatov</li>
+            <li>Github: jedbek</li>
+        </ul>
+
+        <h3 id="Summary">About myself:</h3>
+        <p>I have work experience of several years in catering and service jobs, which provided me with useful soft skills such as client communication, conflict resolution, multitasking and team work. Currently I’m working towards switching to IT sphere. I aim to become a front-end developer and I enjoy studying JS, HTML and CSS.</p>
+
+        <h3 id="Skills">Skills:</h3>
+        <ul>
+            <li>HTML & CSS (Basic)</li>
+            <li>Git (Basic)</li>
+            <li>Python (Basic)</li>
+            <li>English (Advanced)</li>
+        </ul>
+
+        <h3 id="Code">Code example:</h3>
+        <p><Python course task from Stepik: Write a program that reads a number of the pocket of the casino roulette and tells if this pocket is red, black or green./p>
+
+        <div class="brd">
+            <code>
+              <pre>
+                a = int(input())
+                if a > 36 or a < 0:
+                    print('input error')
+                elif a == 0:
+                    print('green')
+                elif 1 <= a <= 10:
+                    if a % 2 == 0:
+                        print('black')
+                    else:
+                        print('red')
+                elif 11 <= a <= 18:
+                    if a % 2 == 0:
+                        print('red')
+                    else:
+                        print('black')
+                elif 19 <= a <= 28:
+                    if a % 2 == 0:
+                        print('black')
+                    else:
+                        print('red')
+                elif 29 <= a <= 36:
+                    if a % 2 == 0:
+                        print('red')
+                    else:
+                        print('black')
+              </pre>
+          </code>
+        </div>
+          
+        <ul><h3 id="Education">Education:</h3>
+            <li>RS School JavaScript course (2022-)</li>
+            <li>Python begginer course on Stepik platform (2022-)</li>
+            <li>Incomplete degree in Philosophy, BSU, Minsk (2017-2019)</li>
+        </ul>
+
+        <ul> <h3 id="Languages">Languages:</h3>
+            <li>English - C1 (had less speaking practice, but can read and write mostly fluently)</li>
+            <li>Russian - Native</li>
+            <li>Belarusian - Native</li>
+        </ul>
+
+    </main>
+    <footer class="footer brd">
+        <a href="https://github.com/jedbek"><img src="assets/img/github.svg" alt="github_icon"></a>
+        <a href="https://rs.school/js/"><img src="assets/img/rs_school_js.svg" width=100px></a>
+        <span>2022</span>
+    </footer>
+</body>
+</html>
